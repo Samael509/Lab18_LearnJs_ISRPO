@@ -91,3 +91,20 @@ const persons = { name: "denis", age: 18 };
 persons.age = 50;
 persons.city = "volgograd";
 console.log(persons);
+
+console.log(typeof "Текст");
+console.log(typeof 42);
+console.log(typeof true);
+console.log(typeof undefined);
+console.log(typeof null);
+console.log(typeof {});
+console.log(typeof []);
+console.log(typeof function () {});
+
+let numberX = null;
+console.log(numberX === null);
+
+let newPrice = 500;
+console.log(newPrice, typeof newPrice);
+newPrice = "дорого";
+console.log(newPrice, typeof newPrice);
