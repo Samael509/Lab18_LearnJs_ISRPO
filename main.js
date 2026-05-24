@@ -154,3 +154,72 @@ console.log(obj1 === obj3);
 let arr1 = [1, 2, 3];
 let arr2 = [1, 2, 3];
 console.log(arr1 === arr2);
+
+
+let yourAge = 18;
+if (yourAge >= 18) {
+    console.log("доступ разрешён");
+} else {
+    console.log("доступ запрещён");
+}
+
+// задание 1
+let temperaturee = -5;
+if (temperature < 0) {
+    console.log("холодно");
+} else if (temperature >= 0 && temperature <= 20) {
+    console.log("прохладно");
+} else {
+    console.log("тепло");
+}
+
+let isStudent2 = true;
+if (isStudent2 && age < 25) {
+    console.log("доступна студенческая скидка");
+}
+
+// задание 2
+let isLoggedIn = true;
+let isAdmin = false;
+if (isLoggedIn && isAdmin) {
+    console.log("полный доступ");
+} else if (isLoggedIn && !isAdmin) {
+    console.log("ограниченный доступ");
+} else {
+    console.log("доступ запрещён");
+}
+
+// задание 3
+let a3 = 10;
+let b3 = "10";
+console.log(a3 == b3);
+console.log(a3 === b3);
+
+let message = age >= 18 ? "совершеннолетний" : "несовершеннолетний";
+console.log(message);
+
+let day = 3;
+switch (day) {
+    case 1: console.log("понедельник"); break;
+    case 2: console.log("вторник"); break;
+    case 3: console.log("среда"); break;
+    default: console.log("неизвестный день");
+}
+
+// задание 4
+let monthNumber = 5;
+switch (monthNumber) {
+    case 1: console.log("январь"); break;
+    case 2: console.log("февраль"); break;
+    case 3: console.log("март"); break;
+    case 4: console.log("апрель"); break;
+    case 5: console.log("май"); break;
+    case 6: console.log("июнь"); break;
+    case 7: console.log("июль"); break;
+    case 8: console.log("август"); break;
+    case 9: console.log("сентябрь"); break;
+    case 10: console.log("октябрь"); break;
+    case 11: console.log("ноябрь"); break;
+    case 12: console.log("декабрь"); break;
+    default: console.log("неправильное значение");
+}
